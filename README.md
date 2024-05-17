@@ -90,6 +90,22 @@ It implies the root of the heap is the biggest node
 
 //Building a heap 
 
+Initialise a tree with one element 
+ -Start with an empty heap and insert the first element. This element is the root of the heap 
+Insert node at Free Leaf 
+  -Add the new element at the next availible position in the heap 
+Compare with parent and swap if necessary
+Push upwards until heap condition is satisfied
+  -Continue the process of comparing the node with its parent and swapping if necessary, pushing the node upwards in the tree until the heap property is restored 
+Repeat for all new elements 
+
+//Sort from a heap
+
+-Swap the root of the heap with the last element 
+-Reduce the size of the heap by one 
+-Restore heap property
+-Pick again from root until tree is empty 
+
 
                                                             
 
