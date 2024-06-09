@@ -115,8 +115,7 @@ Repeat for all new elements
 -Colllection items to work with them later on, undo mechanism in text editiors or function call management 
 
 -Depth-first search (like solving puzzles)
-
--Key Points
+-Key Points-
 -Maintaining Depth: The LIFO nature of the stack ensures that nodes are processed in a way that goes as deep as possible before backtracking.
 -Deep Exploration: By pushing all unvisited neighbors, the stack helps in exploring one path deeply before moving to another path.
 -Backtracking: The stack automatically manages backtracking. When a path is fully explored, it pops back to the previous node to explore new paths.
@@ -132,8 +131,7 @@ Repeat for all new elements
 -Ques are useful when you need to process items in exact order they were added. For instance managing tasks in the printer queu or handling request on a web server 
 
 -Breadth-first search (shortest path in unweighted graph)
-
--Key Points
+-Key Points-
 -Maintaining Order: The FIFO nature of the queue ensures that nodes are processed in the order they are discovered, which is essential for BFS.
 -Complete Exploration: By enqueuing all unvisited neighbors, the queue helps in ensuring that all nodes at a given depth are processed before moving to the next depth.
 -Correct Sequence: The queue automatically manages the sequence of nodes to be processed, preventing the need for manual tracking of nodes at each level.
